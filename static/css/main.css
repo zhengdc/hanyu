@@ -1,0 +1,344 @@
+  *,html,
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1,h2,h3,h4{
+    font-weight: normal;
+  }
+  ul{
+    list-style: none;
+  }
+  a{
+    color: #000;
+    text-decoration: none;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #fff;
+    padding: 22px 0;
+  }
+  .headers{
+    background-color: #fff !important;
+    color: #000000;
+    z-index: 99;
+    box-shadow:0 0 6px rgba(0,0,0,.12);
+  }
+  .headers a{
+    color: #000000;
+  }
+  footer{
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+    background-color: #000000;
+    color: #fff;
+    padding-left: 54px;
+  }
+  .head_logo {
+    display: flex;
+    width: 100px;
+    flex: 1;
+    align-items: center;
+    margin-left: 54px;
+  }
+  .head_logo img{
+    margin-right: 10px;
+  }
+  nav{
+    line-height: 40px;
+  }
+  nav ul {
+    width: 600px;
+    display: flex;
+    flex: 1;
+  }
+  nav ul li{
+    flex: auto;
+    text-align: center;
+  }
+  nav ul a{
+    color: #fff;
+    display: block;
+    font-size: 18px;
+  }
+  .active{
+    color: orange !important;
+  }
+
+  .banner{
+    width: 100%;
+    height: 650px;
+    background-image: url('/img/home_banner_img.a0463b6.png');
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    padding-top: 200px;
+    text-align: center;
+    box-sizing:border-box;
+    overflow: hidden;
+  }
+  .banner_title{
+    color: #fff;
+    line-height: 60px;
+  }
+  .banner_title h1{
+    font-size: 48px;
+    font-weight: normal;
+  }
+  .banner_title p{
+    font-size: 24px;
+  }
+  .xyapp{
+    height: 600px;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .xyapp_title{
+    text-align: center;
+    line-height: 50px;
+  }
+  .xyapp_title p{
+    font-size: 18px;
+  }
+  .xyapp_content{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+  }
+  .xyapp_left{
+    width: 400px;
+    padding-top: 150px;
+    line-height: 40px;
+    display: none;
+  }
+  .xyapp_left div{
+    margin-bottom: 30px;
+  }
+  .xyapp_right{
+    width: 350px;
+    height: 404px;
+    margin-top: 46px;
+    display: none;
+  }
+  .show{
+    display: block !important;
+  }
+  .newAction{
+    width: 100%;
+    height: 600px;
+    background-color: #f7f7f7;
+    padding-top: 50px;
+  }
+.newAction_title{
+  text-align: center;
+  line-height: 50px;
+}
+.swiper{
+  width: 900px;
+  margin: 0 auto;
+}
+.swiper_item{
+  background-color: #fff;
+  height: 100%;
+}
+.swiper_img img{
+  height: 250px;
+  width: 100%;
+}
+.swiper_title{
+  padding:5px 15px;
+}
+.swiper_content{
+    padding:5px 15px;
+    line-height: 30px;
+}
+.partnership{
+  padding: 50px 0;
+}
+.partnership h1{
+  margin-bottom: 30px;
+   text-align: center;
+}
+.partnership_list{
+  margin: 0 auto;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+.partnership_list a{
+  display: block;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 0 10px;
+  transition: all 1.3s;
+}
+.partnership_list a:hover{
+  box-shadow: 0 0 6px rgba(0,0,0,.22);
+  transform:scale(1.1,1.1)
+}
+
+
+/* 小禹app */
+.probanner{
+  height: 700px;
+  width: 100%;
+  background-image:url('/img/xybanner.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.probanner img{
+  margin: 100px 0 0 280px;
+}
+.profunction{
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  padding-top: 50px;
+}
+.profunction_title{
+  line-height: 50px;
+  margin-bottom: 70px;
+}
+.profunction_title p{
+  font-size: 24px;
+}
+/* 公司介绍 */
+.introduce{
+  height: 700px;
+  width: 100%;
+  background-image:url('/img/intbanner.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 200px;
+  color: #fff;
+}
+.introduce div img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.companya,.companyb{
+  width: 100%;
+  height: 700px;
+}
+.companyc{
+  width: 100%;
+  height: 800px;
+}
+.companyb{
+  background-color: #f7f7f7;
+}
+.item_title{
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.item_title span{
+  font-size: 36px;
+}
+.companya_cont{
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.companya img{
+  display: none;
+}
+.companya_cont_des{
+  height: 250px;
+  width: 600px;
+  background-color: rgba(0,0,0,0.62);
+  position: absolute;
+  top: 80px;
+  left: 500px;
+  padding:40px 50px;
+  color: #fff;
+  display: none;
+}
+.companya_cont_des p{
+  margin: 10px 0;
+  text-indent: 40px;
+}
+.companyb_cont{
+  width: 1100px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.companyb_cont img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+}
+.companyb_cont_des{
+  height: 250px;
+  width: 600px;
+  background-color: rgba(0,0,0,0.62);
+  position: absolute;
+  top: 70px;
+  right: 500px;
+  padding:30px 50px;
+  color: #fff;
+  display: none;
+}
+.companyb_cont_des p{
+  margin: 10px 0;
+  text-indent: 40px;
+}
+.bm-view {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+}
+/* join */
+
+.joinbanenr{
+  height: 650px;
+  width: 100%;
+  background-image:url('/img/joinbanner.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding-top: 200px;
+  color: #fff;
+  font-weight: normal;
+}
+.joinbanenr h2{
+  font-size: 40px;
+  line-height: 70px;
+}
+.joinbanenr p{
+  font-size: 30px;
+  line-height: 50px;
+}
+.joinContent{
+  min-height:400px;
+  height: auto;
+  width: 100%;
+}
+.joinContent .cont{
+  width: 1000px;
+  margin: auto;
+  padding: 100px 0;
+}
+.job {
+  display: flex;
+  justify-content: space-around;
+  background-color: #FFA500;
+}
+.job span{
+  display: block;
+  padding: 10px 0;
+  color: #fff;
+}

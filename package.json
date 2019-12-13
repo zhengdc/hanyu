@@ -1,0 +1,21 @@
+{
+  "name": "hanyu",
+  "version": "1.0.0",
+  "description": "My doozie Nuxt.js project",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.2",
+    "element-ui": "^2.4.11",
+    "nuxt": "^2.0.0",
+    "swiper": "^5.2.1",
+    "vue-baidu-map": "^0.21.22"
+  },
+  "devDependencies": {}
+}
